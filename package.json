@@ -1,0 +1,24 @@
+{
+  "name": "reservation-form-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for all 3 modules",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableturners/reservation-form-proxy.git"
+  },
+  "author": "aj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tableturners/reservation-form-proxy/issues"
+  },
+  "homepage": "https://github.com/tableturners/reservation-form-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
